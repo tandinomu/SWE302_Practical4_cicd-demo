@@ -23,7 +23,7 @@ jobs:
       - name: Perform the Unit Test Cases
         run: mvn -B test
 
- security:
+security:
   needs: test
   name: Security scan using Snyk
   runs-on: ubuntu-latest
