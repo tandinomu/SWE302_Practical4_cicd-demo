@@ -1,0 +1,5 @@
+# ZAP Scanning Rules Configuration
+10020	MEDIUM	WARN	X-Frame-Options Header Missing
+10021	MEDIUM	WARN	X-Content-Type-Options Header Missing
+10038	MEDIUM	WARN	Content Security Policy Header Not Set
+10054	MEDIUM	WARN	Cookie Without SameSite Attribute
